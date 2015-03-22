@@ -1,0 +1,96 @@
+<resources>
+
+    <string name="app_name">找兼职</string>
+    <!-- 程序首次打开欢迎页面图片描述 -->
+    <string name="logo_contentDescription">logo</string>
+    <string name="login_rember_pwd">记住密码</string>
+    <string name="login_login">登录</string>
+    <string name="login_froget_pwd"><u>忘记密码?</u></string>
+    <string name="register_account"><u>注册账号</u></string>
+    <string name="login_usertype">用户类型</string>
+    <string name="login_person">个人用户</string>
+    <string name="login_company">企业用户</string>
+    <string name="home_companyName">电子网络信息有限公司</string>
+    <string name="home_isIdentify">未认证</string>
+    <string name="home_desc">        注：未认证的企业发布的兼职信息需要经过1个小时的信息审核时间（9:00-21：00）才能发布到平台。</string>
+    <string name="home_publish_jobs">快速发布兼职</string>
+    <string name="home_publish_info"><u><font color="red">发布须知</font></u></string>
+    <string name="home_publish_tip">        注：以认证的企业可以直接发布兼职信息无需通过认证。</string>
+    <string name="home_apply_identifition">申请认证</string>
+    <string name="home_manage_jobs">兼职管理</string>
+    <string name="home_apply_jobs_text">申请工作(0)</string>
+    <string name="action_settings">设置</string>
+    <string name="menu_apply_jobs">工作申请</string>
+    <string name="menu_black_lists">黑名单</string>
+    <string name="menu_identify_status">认证结果</string>
+    <string name="menu_exit">退出</string>
+    <string name="quick_publish_jobs_titleBar">每天可以免费发布3条兼职信息</string>
+    <string name="quick_publish_job_title">兼职标题</string>
+    <string name="quick_publish_job_title_hint">请输入兼职标题</string>
+    <string name="quick_publish_job_type">兼职类型</string>
+    <string name="quick_publish_job_worktime">工作时间</string>
+    <string name="quick_publish_job_worktime_hint">点击添加工作时间</string>
+    <string name="quick_publish_job_salary">工资待遇</string>
+    <string name="quick_publish_job_salary_hint">请输入数字</string>
+    <string name="quick_publish_jobs_usercount">招聘人数</string>
+    <string name="quick_publish_jobs_usercount_hint">请输入有效数字</string>
+    <string name="quick_publish_jobs_desc">兼职描述</string>
+    <string name="quick_publish_jobs_desc_hint">请输入岗位详细描述很职位要求</string>
+    <string name="quick_publish_jobs_addr">详细地址</string>
+    <string name="quick_publish_jobs_addr_hint">请输入详细地址</string>
+    <string name="quick_publish_jobs_phone">联系电话</string>
+    <string name="quick_publish_job_phone_hint">请输入正确的电话号码</string>
+    <string name="quick_publish_jobs_email">联系邮箱</string>
+    <string name="quick_publish_job_email_hint">请输入正确的邮箱</string>
+    <string name="quick_publish_jobs_provide_msg">提供短信报名</string>
+    <string name="quick_publish_jobs_provide_phone">提供电话报名</string>
+    <string name="quick_publish_jobs_person">联系人员</string>
+    <string name="quick_publish_jobs_person_hint">请输入负责人姓名</string>
+    <string name="quick_publish_jobs_admit">我已阅读并同意</string>
+    <string name="quick_publish_jobs_pro"><u>找兼职发布兼职协议</u></string>
+    <string name="quick_publish_jobs_submit">确认提交</string>
+    
+    <string name="manage_job_info">n条兼职信息</string>
+    
+    <string name="popup_menu_button">历史记录模板</string>
+    <string name="popup_menu_search">查找</string>
+    <string name="popup_menu_add">添加</string>
+    <string name="popup_menu_edit">编辑</string>
+    <string name="popup_menu_share">分享</string>
+    
+    <string name="manage_list_jobs_look">查看</string>
+    <string name="manage_list_jobs_del">删除</string>
+    <string name="manage_jobs_details_a_type">兼职类型:</string>
+    <string name="manage_jobs_details_a_publish_company">发布机构:</string>
+    <string name="manage_jobs_details_a_count">招聘人数:</string>
+    <string name="manage_jobs_details_a_salary">工资待遇:</string>
+    <string name="manage_jobs_details_content">工作内容:</string>
+    <string name="manage_jobs_details_address">详细地址:</string>
+    <string name="manage_jobs_details_contact_people">联系人:</string>
+    <string name="manage_jobs_details_contact_email">联系邮箱:</string>
+    <string name="manage_jobs_details_contact_tel">联系电话:</string>
+    
+    <string name="parttimejobs_current_city">当前城市</string>
+     <string name="parttimejobs_current_city_name">成都</string>
+    <string name="parttimejobs_current_city_switch">切换</string>
+    
+    <string name="myjobscenter_title">我的</string>
+    
+    <string name="user_home_title">兼职</string>
+    <string name="user_home_more">更多</string>
+    <string name="user_home_new_jobs">最新兼职</string>
+    <string name="user_home_favourite">猜你喜欢</string>
+    <string name="user_home_company_name">千椒百味(电子科技大学店)</string>
+    <string name="user_home_job_remark">20条评论</string>
+    
+    <string name="use_home_paidan">派单</string>
+    <string name="use_home_cuxiao">促销</string>
+    <string name="use_home_fuwuyuan">服务员</string>
+    <string name="use_home_liyi">礼仪</string>
+    <string name="use_home_daili">代理</string>
+    <string name="user_home_jiajiao">家教</string>
+    <string name="user_home_xiaoleijianzhi">校内兼职</string>
+    <string name="user_home_all_category">所有分类</string>
+
+
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp" >
+
+    <ImageView
+        android:id="@+id/user_fujin_shopImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#FF0000"
+        android:contentDescription="店铺实拍" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/user_fujin_shopName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/user_fujin_shopImage"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/user_fujin_shopImage"
+        android:text="陆记私房菜   （天润路店）"
+        android:textColor="#000000" >
+    </TextView>
+
+    <RatingBar
+        android:id="@+id/user_fujin_ratingBar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_fujin_shopName"
+        android:layout_below="@+id/user_fujin_shopName" >
+    </RatingBar>
+
+    <TextView
+        android:id="@+id/user_fujin_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/user_fujin_ratingBar"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/user_fujin_ratingBar"
+        android:text="20个人评价"
+        android:textSize="10dp" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/user_fujin_distanceImage"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/user_fujin_ratingBar"
+        android:layout_below="@+id/user_fujin_ratingBar"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/user_fujin_address" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/user_fujin_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/user_fujin_distanceImage"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/user_fujin_distanceImage"
+        android:text="0.9km"
+        android:textSize="10dp" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/user_fujin_timeImage"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_alignBottom="@+id/user_fujin_distance"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/user_fujin_distance"
+        android:src="@drawable/user_fujin_time" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/user_fujin_time1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/user_fujin_timeImage"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/user_fujin_timeImage"
+        android:text="1天前"
+        android:textSize="10dp" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/user_fujin_payImage"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_alignBottom="@+id/user_fujin_time1"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/user_fujin_time1"
+        android:src="@drawable/user_fujin_pay_info" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/user_fujin_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/user_fujin_payImage"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/user_fujin_payImage"
+        android:text="100/天"
+        android:textSize="10dp" >
+    </TextView>
+
+</RelativeLayout>

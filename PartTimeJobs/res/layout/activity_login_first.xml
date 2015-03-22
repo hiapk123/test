@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               android:background="@drawable/activity_login_first_bg"
+               >
+        <TextView  android:drawableTop="@drawable/activity_login_first_personal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentBottom="true"
+                   android:layout_marginBottom="60dp"
+                   android:layout_marginLeft="50dp"
+                   android:id="@+id/activity_login_first_person"
+                   android:text="求职者登录"
+                   android:gravity="center"
+                   android:textColor="#FFFFFF"
+                    android:drawablePadding="10dp"
+            ></TextView>
+        <TextView  android:drawableTop="@drawable/activity_login_first_company"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignBottom="@+id/activity_login_first_person"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginRight="50dp"
+                   android:text="企业登录"
+                   android:gravity="center"
+                    android:textColor="#FFFFFF"
+                   android:drawablePadding="10dp"
+                    android:id="@+id/activity_login_first_company"
+                   ></TextView>
+     
+</RelativeLayout>

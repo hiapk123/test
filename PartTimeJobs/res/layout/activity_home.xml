@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/holo_orange_light" >
+
+        <TextView
+            android:id="@+id/home_companyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/home_companyName"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/holo_orange_dark" />
+
+        <TextView
+            android:id="@+id/home_isIdentify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/home_companyName"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/home_isIdentify"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/holo_orange_dark" />
+
+        <Button
+            android:id="@+id/home_apply_jobs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/home_isIdentify"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/home_apply_jobs"
+            android:text="@string/home_apply_jobs_text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/holo_blue_bright" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8" >
+
+        <TextView
+            android:id="@+id/home_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:text="@string/home_desc"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#F11" />
+
+        <Button
+            android:id="@+id/home_publish_jobs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/home_desc"
+            android:layout_margin="5dp"
+            android:background="#3f3"
+            android:text="@string/home_publish_jobs"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/home_publish_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/home_publish_jobs"
+            android:layout_centerHorizontal="true"
+            android:text="@string/home_publish_info"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#666" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7" >
+
+        <TextView
+            android:id="@+id/home_publish_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:text="@string/home_publish_tip" />
+
+        <Button
+            android:id="@+id/home_apply_identifition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/home_publish_tip"
+            android:layout_margin="5dp"
+            android:background="#3f3"
+            android:text="@string/home_apply_identifition"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/home_manage_jobs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/home_apply_identifition"
+            android:layout_margin="5dp"
+            android:background="#F22"
+            android:text="@string/home_manage_jobs"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFF"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

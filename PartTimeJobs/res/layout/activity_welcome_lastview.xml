@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:id="@+id/activity_welcome_last"
+               android:background="@drawable/user_home_guide4">
+    <ImageView android:layout_width="150dp"
+               android:layout_height="wrap_content"
+               android:src="@drawable/user_home_lijitiyan"
+               android:layout_centerHorizontal="true"
+               android:layout_alignParentBottom="true"
+               android:id="@+id/activity_welcome_button"
+               android:layout_marginBottom="20dp"></ImageView>
+</RelativeLayout>

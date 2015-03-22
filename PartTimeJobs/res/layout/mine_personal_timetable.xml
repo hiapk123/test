@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:background="@drawable/grey_bg"
+              >
+      <RelativeLayout android:layout_width="match_parent"
+                      android:layout_height="50dp"
+                      android:background="@color/title_blue">
+             <ImageView android:src="@drawable/back_button"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_width="60dp"
+                        android:layout_height="23dp"
+                        android:id="@+id/personal_time_back"
+                        android:layout_marginLeft="10dp"></ImageView>
+              <TextView android:text="编辑空余时间"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textColor="#FFFFFF"/>
+              
+              <Button android:layout_centerVertical="true"
+                        android:text="提交"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/personal_time_submit"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:background="#00FFFFFF"
+                        android:textColor="#FFFFFF"
+                        ></Button>
+      </RelativeLayout>
+     <LinearLayout android:layout_width="fill_parent"
+                   android:layout_height="30dp"
+                   android:orientation="horizontal"
+                  
+                   >
+            
+        <TextView android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="match_parent"
+                   android:text=""
+                   android:gravity="center"
+                   
+                  
+                   
+                   ></TextView>
+          
+                    <TextView android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="match_parent"
+                   android:text="周一"
+                   android:gravity="center"
+                   android:layout_marginLeft="1dp"
+                    android:background="#FF3456"
+                   
+                   ></TextView>
+         <TextView android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="match_parent"
+                   android:text="周二"
+                   android:gravity="center"
+                   android:layout_marginLeft="1dp"
+                    android:background="#FF3456"
+                   ></TextView>
+          <TextView android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="match_parent"
+                   android:text="周三"
+                   android:gravity="center"
+                   android:layout_marginLeft="1dp"
+                    android:background="#FF3456"
+                   ></TextView>
+           <TextView android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="match_parent"
+                   android:text="周四"
+                   android:gravity="center"
+                   android:layout_marginLeft="1dp"
+                    android:background="#FF3456"
+                   ></TextView>
+            <TextView android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="match_parent"
+                   android:text="周五"
+                   android:gravity="center"
+                   android:layout_marginLeft="1dp"
+                    android:background="#FF3456"
+                   ></TextView>
+             <TextView android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="match_parent"
+                   android:text="周六"
+                   android:gravity="center"
+                   android:layout_marginLeft="1dp"
+                    android:background="#FF3456"
+                   ></TextView>
+              <TextView android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="match_parent"
+                   android:text="周日"
+                   android:gravity="center"
+                   android:layout_marginLeft="1dp"
+                    android:background="#FF3456"
+                   ></TextView>
+              
+     </LinearLayout>
+     <LinearLayout android:layout_width="fill_parent"
+                   android:layout_height="70dp"
+                   android:orientation="horizontal"
+                   android:layout_marginTop="1dp">
+         <TextView android:text="上午"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="fill_parent"
+                   android:gravity="center"
+                  
+                   ></TextView>
+        <CheckBox android:layout_weight="1"
+                    android:id="@+id/time_table_11"
+                      android:layout_height="match_parent"
+                      android:layout_width="0dp"
+                     android:button="@null"
+                      android:background="@drawable/mine_timetable_selector"
+                      
+                      ></CheckBox>
+         <CheckBox android:layout_weight="1"
+                      android:id="@+id/time_table_21"
+                      android:layout_height="match_parent"
+                      android:layout_width="0dp"
+                      
+                      android:layout_marginLeft="1dp"
+                   android:button="@null"
+                      android:background="@drawable/mine_timetable_selector"></CheckBox>
+           <CheckBox android:layout_weight="1"
+                      android:id="@+id/time_table_31"
+                      android:layout_height="match_parent"
+                      android:layout_width="0dp"
+                      
+                      android:layout_marginLeft="1dp"
+                       android:button="@null"
+                      android:background="@drawable/mine_timetable_selector"></CheckBox>
+             <CheckBox android:layout_weight="1"
+                      android:id="@+id/time_table_41"
+                     
+                      android:layout_height="match_parent"
+                      android:layout_width="0dp"
+                      android:layout_marginLeft="1dp"
+                    android:button="@null"
+                      android:background="@drawable/mine_timetable_selector"></CheckBox>
+               <CheckBox android:layout_weight="1"
+                     android:id="@+id/time_table_51"
+                    
+                      android:layout_height="match_parent"
+                      android:layout_width="0dp"
+                      android:layout_marginLeft="1dp"
+                     android:button="@null"
+                      android:background="@drawable/mine_timetable_selector"></CheckBox>
+                 <CheckBox android:layout_weight="1"
+                      android:id="@+id/time_table_61"
+                      
+                      android:layout_height="match_parent"
+                      android:layout_width="0dp"
+                      android:layout_marginLeft="1dp"
+                   android:button="@null"
+                      android:background="@drawable/mine_timetable_selector"></CheckBox>
+                   <CheckBox android:layout_weight="1"
+                       android:id="@+id/time_table_71"
+                      android:layout_height="match_parent"
+                     
+                      android:layout_width="0dp"
+                      android:layout_marginLeft="1dp"
+                   android:button="@null"
+                      android:background="@drawable/mine_timetable_selector"></CheckBox>
+                   
+     </LinearLayout>
+      <LinearLayout android:layout_width="fill_parent"
+                   android:layout_height="70dp"
+                   android:orientation="horizontal"
+                   android:layout_marginTop="1dp">
+         <TextView android:text="下午"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="fill_parent"
+                   android:gravity="center"
+                   ></TextView>
+                    
+         <CheckBox android:layout_weight="1"
+                     android:id="@+id/time_table_12"
+                     
+                      android:layout_height="match_parent"
+                      android:layout_width="0dp"
+                    android:button="@null"
+                      android:background="@drawable/mine_timetable_selector"></CheckBox>
+         <CheckBox android:layout_weight="1"
+             android:id="@+id/time_table_22"
+             
+                      android:layout_height="match_parent"
+                      android:layout_width="0dp"
+                      android:layout_marginLeft="1dp"
+               android:button="@null"
+                      android:background="@drawable/mine_timetable_selector"></CheckBox>
+           <CheckBox android:layout_weight="1"
+                      android:id="@+id/time_table_32"
+                        
+                      android:layout_height="match_parent"
+                      android:layout_width="0dp"
+                      android:layout_marginLeft="1dp"
+                     android:button="@null"
+                      android:background="@drawable/mine_timetable_selector"></CheckBox>
+             <CheckBox android:layout_weight="1"
+                     android:id="@+id/time_table_42"
+                      android:layout_height="match_parent"
+                       
+                      android:layout_width="0dp"
+                      android:layout_marginLeft="1dp"
+                      android:button="@null"
+                      android:background="@drawable/mine_timetable_selector"></CheckBox>
+               <CheckBox android:layout_weight="1"
+                      android:id="@+id/time_table_52"
+                      android:layout_height="match_parent"
+                     
+                      android:layout_width="0dp"
+                      android:layout_marginLeft="1dp"
+                      android:button="@null"
+                      android:background="@drawable/mine_timetable_selector"></CheckBox>
+                 <CheckBox android:layout_weight="1"
+                       android:id="@+id/time_table_62"
+                      android:layout_height="match_parent"
+                       
+                      android:layout_width="0dp"
+                      android:layout_marginLeft="1dp"
+                  android:button="@null"
+                      android:background="@drawable/mine_timetable_selector"></CheckBox>
+                   <CheckBox android:layout_weight="1"
+                        android:id="@+id/time_table_72"
+                      android:layout_height="match_parent"
+                       
+                      android:layout_width="0dp"
+                      android:layout_marginLeft="1dp"
+                  android:button="@null"
+                      android:background="@drawable/mine_timetable_selector"></CheckBox>
+                   
+     </LinearLayout>
+      <LinearLayout android:layout_width="fill_parent"
+                   android:layout_height="70dp"
+                   android:orientation="horizontal"
+                   android:layout_marginTop="1dp">
+         <TextView android:text="晚上"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="fill_parent"
+                   android:gravity="center"
+                   ></TextView>
+         <CheckBox android:layout_weight="1"
+                     android:id="@+id/time_table_13"
+                      android:layout_height="match_parent"
+                       
+                      android:layout_width="0dp"
+                      
+                     android:button="@null"
+                      android:background="@drawable/mine_timetable_selector"></CheckBox>
+           <CheckBox android:layout_weight="1"
+                      android:id="@+id/time_table_23"
+                      android:layout_height="match_parent"
+                      android:layout_width="0dp"
+                      android:layout_marginLeft="1dp"
+                      
+                      android:button="@null"
+                      android:background="@drawable/mine_timetable_selector"></CheckBox>
+           <CheckBox android:layout_weight="1"
+                      android:id="@+id/time_table_33"
+                      android:layout_height="match_parent"
+                      android:layout_width="0dp"
+                      android:layout_marginLeft="1dp"
+                        android:button="@null"
+                
+                      android:background="@drawable/mine_timetable_selector"></CheckBox>
+             <CheckBox android:layout_weight="1"
+                      android:id="@+id/time_table_43"
+                      android:layout_height="match_parent"
+                      
+                      android:layout_width="0dp"
+                      android:layout_marginLeft="1dp"
+                    android:button="@null"
+                      android:background="@drawable/mine_timetable_selector"></CheckBox>
+               <CheckBox android:layout_weight="1"
+                      android:id="@+id/time_table_53"
+                      android:layout_height="match_parent"
+                      
+                      android:layout_width="0dp"
+                      android:layout_marginLeft="1dp"
+                     android:button="@null"
+                      android:background="@drawable/mine_timetable_selector"></CheckBox>
+                 <CheckBox android:layout_weight="1"
+                      android:id="@+id/time_table_63"
+                      android:layout_height="match_parent"
+                      android:layout_width="0dp"
+                    
+                      android:layout_marginLeft="1dp"
+                     
+                      android:button="@null"
+                      android:background="@drawable/mine_timetable_selector"></CheckBox>
+                   <CheckBox android:layout_weight="1"
+                        android:id="@+id/time_table_73"
+                      android:layout_height="match_parent"
+                      android:layout_width="0dp"
+                     
+                      android:layout_marginLeft="1dp"
+                     android:button="@null"
+                      android:background="@drawable/mine_timetable_selector"></CheckBox>
+                   
+     </LinearLayout>
+       <TextView android:text="注：此时间表以周期为标准，点击打钩即为有空"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="40dp"
+                 android:layout_marginRight="30dp"
+                 android:layout_marginTop="50dp"
+                 android:textColor="#c0c0c0"
+                 android:textSize="15dp"
+                 
+                 ></TextView>
+    
+</LinearLayout>

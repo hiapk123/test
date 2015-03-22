@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@drawable/activity_login_bg"
+              >
+           <RelativeLayout android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           >
+                 <ImageView android:src="@drawable/activity_login_xionmaojianzhi"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerHorizontal="true"
+                      android:layout_marginTop="30dp"
+                      
+                      ></ImageView>
+    </RelativeLayout>
+     
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="40dp"
+                    android:background="#FFFFFFFF">
+      <EditText android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_marginLeft="50dp"
+                  android:background="@null"
+                  android:layout_marginBottom="3dp"
+                  android:inputType="number"
+                  android:hint="账号"
+                  android:gravity="bottom"
+                  android:id="@+id/activity_login_zhanghao"
+                />
+     
+    </RelativeLayout>
+     <ImageView android:src="@drawable/activity_login_second_zhanghao"
+                   android:layout_marginTop="-72dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"></ImageView>
+      <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="24dp"
+                    android:background="#FFFFFFFF">
+                       
+      <EditText android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_marginLeft="50dp"
+                  android:background="@null"
+                  android:layout_marginBottom="3dp"
+                  android:inputType="textPassword"
+                   android:gravity="bottom"
+                   android:id="@+id/activity_login_mima"
+                   />
+      
+    </RelativeLayout>
+      <ImageView android:src="@drawable/activity_login_second_mima"
+                   android:layout_marginTop="-18dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"></ImageView>
+      
+      <RelativeLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+          <CheckBox  android:button="@drawable/activity_login_checkbox"
+                   android:layout_alignParentRight="true"
+                    android:text="记住密码"
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/activity_login_jizhumima"
+                    android:textColor="#FFFFFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+      </RelativeLayout>
+      <RelativeLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+             
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/activity_login_loginbutton"
+                       android:id="@+id/activity_login_login"
+                      
+                      android:layout_centerHorizontal="true"
+                      android:layout_marginTop="5dp"
+                       
+                       ></ImageView>
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" >
+
+          <TextView
+              android:id="@+id/activity_login_forget"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignBottom="@+id/dingwei"
+              android:layout_toLeftOf="@+id/dingwei"
+              android:text="忘记密码"
+              android:textColor="#FFFFFF" />
+
+          <TextView
+              android:id="@+id/dingwei"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentBottom="true"
+              android:layout_centerHorizontal="true"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:text="|"
+              android:textColor="#FFFFFF" />
+
+          <TextView
+              android:id="@+id/activity_login_register"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignBottom="@+id/dingwei"
+              android:layout_alignParentBottom="true"
+              android:layout_toRightOf="@+id/dingwei"
+              android:text="注册账号"
+              android:textColor="#FFFFFF" />
+      </RelativeLayout>
+     
+</LinearLayout>

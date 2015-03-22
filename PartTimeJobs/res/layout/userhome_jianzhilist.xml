@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#FFFFFF"
+              >
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/title_blue">
+            <ImageView android:src="@drawable/back_button"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_width="60dp"
+                        android:layout_height="23dp"
+                        android:id="@+id/userhome_jianzhilist_back"
+                        android:layout_marginLeft="10dp"></ImageView>          
+        <TextView android:id="@+id/usehome_jianzhilist_title"
+                  android:text=""
+                  android:textColor="#FFFFFF"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="20dp"
+                  android:layout_centerInParent="true"
+                  ></TextView>
+    </RelativeLayout>
+    <ListView android:id="@+id/userhome_jianzhilist_list"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"></ListView>
+</LinearLayout>

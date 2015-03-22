@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/user_home_mine_bg" >
+
+    <RelativeLayout
+        android:id="@+id/title_name_mine"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/title_blue" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="我的"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" >
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/activity_mine_title"
+        android:id="@+id/userinfo_mine_button1"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="72dp"
+        android:background="#FFFFFFFF" >
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/user_home_mine_default_photo" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/arrow_right" >
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="180dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/userinfo_mine_button2"
+            android:layout_width="fill_parent"
+            android:layout_height="38dp" 
+             android:background="#FFFFFFFF">
+
+            <ImageView
+                android:id="@+id/needle1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/user_home_mine_needle" >
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/needle1"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/needle1"
+                android:text="我的收藏" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="10dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/arrow_right" >
+            </ImageView>
+        </RelativeLayout>
+
+     
+        <RelativeLayout
+            android:id="@+id/userinfo_mine_button3"
+            android:layout_marginTop="40dp"
+            android:layout_width="fill_parent"
+            android:layout_height="38dp"
+            android:background="#FFFFFFFF"
+            android:layout_below="@+id/button2" >
+
+            <ImageView
+                android:id="@+id/appli"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/user_home_mine_application_image" >
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/appli"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/appli"
+                android:text="我的申请" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="10dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/arrow_right" >
+            </ImageView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="270dp"
+         >
+
+        <RelativeLayout
+            android:id="@+id/userinfo_mine_button4"
+            android:layout_width="fill_parent"
+            android:background="#FFFFFFFF"
+            android:layout_height="38dp" >
+
+            <ImageView
+                android:id="@+id/clock1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/user_home_mine_clock" >
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/clock1"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/clock1"
+                android:text="新版本检测" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="10dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/arrow_right" >
+            </ImageView>
+        </RelativeLayout>
+
+       
+
+        <RelativeLayout
+            android:id="@+id/userinfo_mine_button5"
+            android:layout_width="fill_parent"
+            android:layout_height="38dp"
+            android:layout_marginTop="40dp"
+             android:background="#FFFFFFFF"
+            android:layout_below="@+id/button4" >
+
+            <ImageView
+                android:id="@+id/about1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/user_home_mine_about" >
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/about1"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/about1"
+                android:text="关于熊猫兼职" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="10dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/arrow_right" >
+            </ImageView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+         >
+
+        <RelativeLayout
+            android:id="@+id/userinfo_mine_button6"
+            android:layout_width="fill_parent"
+            android:background="#FFFFFFFF"
+        
+            android:layout_height="38dp" >
+
+            <ImageView
+                android:id="@+id/rubbish1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/user_home_mine_rubbish" >
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/rubbish1"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/rubbish1"
+                android:text="清理缓存" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="10dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/arrow_right" >
+            </ImageView>
+        </RelativeLayout>
+
+      
+   
+
+    <RelativeLayout
+        android:id="@+id/userinfo_mine_button7"
+        android:layout_marginTop="40dp"
+        android:layout_width="fill_parent"
+        android:layout_height="38dp"
+         android:background="#FFFFFFFF"
+     
+        android:layout_alignParentLeft="true" >
+
+        <ImageView
+            android:id="@+id/suggest1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/user_home_mine_suggest" >
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/suggest1"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/suggest1"
+            android:text="意见反馈" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/arrow_right" />
+    </RelativeLayout>
+     </RelativeLayout>
+
+</RelativeLayout>

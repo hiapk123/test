@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="parent">#0F5</color>
+    <color name="child">#F00</color>
+    <color name="o">#ddeeee</color>
+    <color name="o1">#ffffdd</color>
+    <color name="gray">#d5d4d4</color>
+    <color name="blue">#0000ff</color>
+    <color name="calendar_color_green">#60c677</color>
+    <color name="calendar_color_orange">#fc6c00</color>
+    <color name="calendar_color_black">#666666</color>
+    <color name="calendar_color_gray">#cccccc</color>
+    <color name="calendar_color_month_title">#526276</color>
+    <color name="calendar_color_white">#ffffff</color>
+    <color name="title_blue">#18b4ed</color>
+    <color name="bottom_gray">#EFEFEF</color>
+    <color name="text_grey">#C0C0C0</color>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                
+                >
+         <FrameLayout android:id="@+id/user_home_content"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                       ></FrameLayout>
+         <RadioGroup android:layout_alignParentBottom="true"
+                     android:layout_width="match_parent"
+                     android:background="#efefef"
+                     android:orientation="horizontal"
+                     android:gravity="center_horizontal"
+                     android:layout_height="wrap_content">
+              
+                     <RadioButton android:button="@drawable/user_home_bg_jianzhi_selector"
+                                  android:layout_height="wrap_content"
+                                  android:id="@+id/maintab_tab_jianzhi"
+                                  android:layout_marginRight="15dp"
+                                  android:layout_alignParentLeft="true"
+                                  android:layout_width="wrap_content"/>
+                     <RadioButton android:button="@drawable/user_home_bg_near_selector"
+                                   android:layout_height="wrap_content"
+                                     android:layout_marginRight="15dp"
+                                     android:id="@+id/maintab_tab_near"
+                                   android:layout_centerHorizontal="true"
+                                  android:layout_width="wrap_content"/>
+                     <RadioButton android:button="@drawable/user_home_bg_mine_selector"
+                                   android:layout_height="wrap_content"
+                                   android:layout_alignParentRight="true"
+                                     android:id="@+id/maintab_tab_mine"
+                                  android:layout_width="wrap_content"/>
+            
+         </RadioGroup>
+    
+</RelativeLayout>
